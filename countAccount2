@@ -24,7 +24,7 @@ public class countAccount {
         Test.startTest();
         Event__mdt metadataRecord =[select Id ,MaxEvents__c from Event__mdt];
         List<Event> listEvent =new List<Event>();
-        for(Integer i=0;i<110;i++){
+        for(Integer i=1;i<=100;i++){
             Event e=new Event();
             e.ActivityDate=Date.today();
             e.Subject='meeting'+i;
