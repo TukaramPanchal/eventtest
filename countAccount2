@@ -36,7 +36,7 @@ public class countAccount {
         catch(Exception g){
             System.debug(g.getMessage());
         }
-        // System.assertEquals(110, metadataRecord.MaxEvents__c);
+        // System.assertEquals(100, metadataRecord.MaxEvents__c);
         Test.stopTest();
     }
     
